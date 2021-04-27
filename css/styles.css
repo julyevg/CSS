@@ -1,0 +1,117 @@
+
+[class^="bg-"]{
+  /*  display:  flex;
+    flex-wrap: wrap;*/
+    width: 50%;
+    margin: 0 auto;
+    height: 150px;
+    border: 1px solid red;
+}
+
+.bg-color{
+    background-color: red;
+}
+.bg-image{
+    background-image: url(https://live.staticflickr.com/2337/2204774444_42cee10e14_b.jpg);
+
+}
+.bg-repeat{
+
+    background-image: url(https://live.staticflickr.com/2337/2204774444_42cee10e14_b.jpg);
+    background-size: 30%;
+    background-repeat:repeat-x ;
+}
+.bg-position{
+    background-image: url(https://live.staticflickr.com/2337/2204774444_42cee10e14_b.jpg);
+    background-size: 30%;
+    background-repeat:no-repeat ;
+    background-position: top;
+}
+.bg-size{
+    background-image: url(https://live.staticflickr.com/2337/2204774444_42cee10e14_b.jpg);
+    background-size: cover;
+}
+.bg-attachment{
+    width: 100%;
+    background-image: url(https://live.staticflickr.com/2337/2204774444_42cee10e14_b.jpg);
+    background-size: contain;
+    background-attachment: fixed;
+}
+.bg-clip{
+    border: 5px dotted red;
+    background-color: blue;
+    background-clip: content-box;
+    padding: 25px;
+}
+body{
+    background: darkslategrey;
+}
+.container{
+    background: lightcyan;
+    width: 400px;
+    height: 400px;
+}
+.circle{
+    background:lightcoral;
+    width: 400px;
+    height: 400px;
+    clip-path: circle(100px at  bottom left);
+}
+/*.box{
+    background: #aaa;
+    width: 200px;
+    height: 200px;
+    border: 3px solid black;
+    margin-left:auto ;
+    margin-right: auto;
+    box-shadow: 10px 30px 5px 5px red;
+    
+}*/
+.box{
+  
+    width: 200px;
+    height: 200px;
+    border: 3px solid black;
+    margin-left:auto ;
+    margin-right: auto;
+    background-image: linear-gradient(to bottom, #FCD116 0%,
+     #FCD116 50%, #003893 50%, #003893 75%,
+      #CE1126 75%, #CE1126 100%);
+ }
+    
+     
+    
+    
+    
+
+.flag-chile{
+    
+    width: 200px;
+    height: 200px;
+    border:3px solid black;
+    margin:auto;
+   /* background-image: linear-gradient(180deg,  blue  11%, white  , red 50%);*/
+   background-image: linear-gradient(to bottom ,  blue 11%,  blue 20%,white 33%, white 50%,
+                             #D52B1E 50%, #D52B1E 100%);
+}
+.flag-japon{
+
+    width: 200px;
+    height: 200px;
+    border:3px solid black;
+    margin:auto;
+    background-image: radial-gradient(circle 70px, transparent 50%, red 10%,white 100%);
+    
+}
+.article{
+    border: 1px solid blue;
+    padding: .5em;
+    height: 100px;
+    overflow: auto;
+}
+
+.title{
+    text-align: center;
+    text-shadow: 10px 10px 2px red,-11px -11px 2px blue;
+    margin-bottom: auto;
+}

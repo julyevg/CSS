@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title> Formulario con Flexbox</title>
+    <link rel="stylesheet" href="stylesForm.css">
+</head>
+<body>
+    <div class="card">
+        <div class="card__left">
+            <figure >
+                <img src="/assets/img/Screenshot_5.png" class="bg-image">
+            </figure>
+        </div>
+        <div class="card__right">
+            <h1 class="card__title">Contact</h1>
+            <form action ="#" class="form">
+                <div class="form__names">
+                    <div class="form__fields">
+                        <label for="name" class="form_label">Fist name </label>
+                        <input type="text" id="name" class="form__input">
+                    </div>
+                    <div class="form__fields">
+                        <label for="surname" class="form_label">Last name </label>
+                        <input type="text" id="surname" class="form__input">
+                    </div>
+                </div>
+           
+                <div class="form__fields">
+                    <label for="email" class="form_label">Email</label>
+                    <input type="text" id="email" class="form__input">
+                </div>
+               
+                <div class="form__fields">
+                    <label for="message" class="form_label">Mesagge</label>
+                    <textarea type="text" id="message" class="form__textarea"></textarea>
+                </div>
+                <input type="submit" class="form__submit" value="send">
+            </form>
+        </div>
+
+    </div>
+</body>
+</html>
